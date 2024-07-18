@@ -126,4 +126,5 @@ def echo(message):
     for symbol in message.text:
         bot.reply_to(message, symbol)
 
+# запуск бота
 bot.infinity_polling()
